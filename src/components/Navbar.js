@@ -38,12 +38,12 @@ const Navbar = () => {
     navigate('/Login');
   }
 
-  useEffect(()=>{
-    setTimeout(()=>{
-      if(!localStorage.getItem('token')){
-        navigate('/Login');
-      }
-    },5000)
+  // useEffect(()=>{
+  //   setTimeout(()=>{
+  //     if(!localStorage.getItem('token')){
+  //       navigate('/Login');
+  //     }
+  //   },5000)
   },[navigate])
 
   return (
