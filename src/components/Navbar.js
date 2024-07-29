@@ -38,13 +38,6 @@ const Navbar = () => {
     navigate('/Login');
   }
 
-  // useEffect(()=>{
-  //   setTimeout(()=>{
-  //     if(!localStorage.getItem('token')){
-  //       navigate('/Login');
-  //     }
-  //   },5000)
-  },[navigate])
 
   return (
     <nav className="fixed-top navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
